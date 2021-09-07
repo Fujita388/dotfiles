@@ -6,13 +6,17 @@ syntax on
 colorscheme molokai
 set t_Co=256
 
-set virtualedit=block  "vimの矩形選択で文字が無くても右へ進める"
 set number
 set title  "タイトル"
 set showmatch  
 set list
-set lcs=tab:>.
+set lcs=tab:»-
 
+"タブの色変更
+hi SpecialKey ctermbg=None ctermfg=blue guibg=NONE guifg=None
+
+"コメントアウトの色変更
+hi Comment ctermfg=darkgrey
 
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
