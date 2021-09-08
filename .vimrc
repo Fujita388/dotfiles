@@ -7,20 +7,38 @@ colorscheme molokai
 set t_Co=256
 
 set number
-set title  "タイトル"
-set showmatch  
+set title
+set showmatch
+set virtualedit=block
 set list
-set lcs=tab:»-
+set listchars=tab:»-
+set cursorline
+highlight CursorLine cterm=NONE ctermfg=NONE ctermbg=237
+set autoindent
+set smartindent
+set laststatus=2
+"set mouse=a
+"set ttymouse=xterm2
 
-"タブの色変更
-hi SpecialKey ctermbg=None ctermfg=blue guibg=NONE guifg=None
+"jj、っj をescに
+inoremap <silent> jj <ESC>
+inoremap <silent> っj <ESC>
+
+"nで行頭、Nで行末に移動
+nnoremap n 0
+nnoremap N $
+
+"行の真ん中へ移動
+nn m :call cursor(0,strlen(getline("."))/2)<CR>
+
+"tabの色変更
+hi SpecialKey ctermbg=None ctermfg=240 guibg=NONE guifg=None
 
 "コメントアウトの色変更
-hi Comment ctermfg=darkgrey
+hi Comment ctermfg=245
 
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
 inoremap ( ()<LEFT>
 inoremap " ""<LEFT>
 inoremap ' ''<LEFT>
-
