@@ -20,6 +20,12 @@ set laststatus=2
 "set mouse=a
 "set ttymouse=xterm2
 
+"挿入モードでカーソルをアンダーバーに
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[3 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[1 q"
+
 "jj、っj をescに
 inoremap <silent> jj <ESC>
 inoremap <silent> っj <ESC>
