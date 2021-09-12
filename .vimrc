@@ -1,7 +1,6 @@
 set tabstop=4
 set shiftwidth=4
 
-
 syntax on
 colorscheme molokai
 set t_Co=256
@@ -19,6 +18,9 @@ set smartindent
 set laststatus=2
 "set mouse=a
 "set ttymouse=xterm2
+
+"コメント中に改行してもコメントが追加されないようにする
+autocmd FileType * setlocal formatoptions-=ro"
 
 "挿入モードでカーソルをアンダーバーに
 let &t_ti.="\e[1 q"
