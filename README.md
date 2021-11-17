@@ -15,3 +15,8 @@ ZSH_THEME="my_zsh_theme"
 
 に変更すること。
 
+## .bashrc
+https://github.com/tadashi-aikawa/pureline-inspired
+
+を参考に設定。
+
