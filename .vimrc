@@ -5,7 +5,7 @@ syntax on
 colorscheme molokai
 set t_Co=256
 
-set number
+"set number
 set title
 set showmatch
 set virtualedit=block
@@ -16,6 +16,7 @@ highlight CursorLine cterm=NONE ctermfg=NONE ctermbg=237
 set autoindent
 set smartindent
 set laststatus=2
+set hlsearch
 "set mouse=a
 "set ttymouse=xterm2
 
