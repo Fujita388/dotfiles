@@ -1,0 +1,11 @@
+[user]
+	name = N.Fujita
+	email = naofuji.1220@gmail.com
+[alias]
+	co = checkout
+	l = log --oneline
+[core]
+	editor = vim
+	autocrlf = false
+[init]
+	defaultBranch = main
