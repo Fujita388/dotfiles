@@ -20,3 +20,5 @@ https://github.com/tadashi-aikawa/pureline-inspired
 
 を参考に設定。
 
+## powerline font のインストール
+https://github.com/powerline/fonts
