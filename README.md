@@ -13,10 +13,10 @@ https://deepblue-will.hatenablog.com/entry/2015/07/25/%E3%82%AB%E3%83%83%E3%82%B
 
 ZSH_THEME="my_zsh_theme" に変更すること。
 
-### powerline font のインストール
-https://github.com/powerline/fonts
-
 ## .bashrc
 https://github.com/tadashi-aikawa/pureline-inspired
 
 を参考に設定。
+
+## powerline font のインストール
+https://github.com/powerline/fonts
