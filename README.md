@@ -11,9 +11,7 @@ https://deepblue-will.hatenablog.com/entry/2015/07/25/%E3%82%AB%E3%83%83%E3%82%B
 
 を参考に設定。
 
-ZSH_THEME="my_zsh_theme"
-
-に変更すること。
+ZSH_THEME="my_zsh_theme" に変更すること。
 
 ## .bashrc
 https://github.com/tadashi-aikawa/pureline-inspired
